@@ -43,7 +43,7 @@ class Buxfer
   end
   
   def reports(options = {})
-    self.class.get('/reports.xml', auth_query(options))
+    self.class.get('/reports.xml', auth_query(options))['response']['reports']['report']
   end
 
   def accounts
@@ -51,7 +51,7 @@ class Buxfer
   end
 
   def loans
-    self.class.get('/loans.xml', auth_query)
+    self.class.get('/loans.xml', auth_query)['response']['loans']['loan']
   end
 
   def tags
