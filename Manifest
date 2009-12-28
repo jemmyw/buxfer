@@ -1,6 +1,14 @@
 CHANGELOG
 LICENSE
 Manifest
-README
+README.rdoc
 Rakefile
+buxfer.gemspec
 lib/buxfer.rb
+lib/buxfer/account.rb
+lib/buxfer/base.rb
+lib/buxfer/report.rb
+lib/buxfer/tag.rb
+spec/lib/base_spec.rb
+spec/spec.opts
+spec/spec_helper.rb
