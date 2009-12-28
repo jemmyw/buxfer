@@ -91,8 +91,8 @@ module Buxfer
     #
     # The statement can be a String or an IO object.
     #
-    # An optional date format can be passed indicating if the date
-    # is 'DD/MM/YYYY' (default) or 'MM/DD/YYYY'
+    # An optional date format can be passed indicating if the dates used in the statement
+    # are in the format 'DD/MM/YYYY' (default) or 'MM/DD/YYYY'
     #
     # Example:
     #
