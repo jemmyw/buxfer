@@ -1,5 +1,5 @@
 module Buxfer
-  class Tag < OpenStruct
+  class Tag < Buxfer::Response
     # Return an array of the last 25 transactions for this tag.
     # See Buxfer::Base#transactions for valid options.
     def transactions(options = {})

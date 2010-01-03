@@ -1,5 +1,5 @@
 module Buxfer
-  class Account < OpenStruct
+  class Account < Buxfer::Response
     # Returns an array of accounts. See Buxfer::Base#accounts
     #
     # Example:
